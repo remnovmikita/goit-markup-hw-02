@@ -28,26 +28,23 @@ h2, h3{
 .logo-studio{
     color: #2e2f42;
 }
-.navigation-menu{
+.navigation-menu-a{
     color: #2E2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
 }
-.navigation-menu-li{
-    color: #2e2f42;
-}
-.navigation-menu-li:focus{
+.navigation-menu-a:focus{
     color: #404bbf;
 }
-.address-menu{
+.about-menu-a{
     color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    font-size: normal;
+    font-style: normal;
 }
 .main-tag-h1{
     color: #FFFFFF;
@@ -58,7 +55,7 @@ h2, h3{
     text-align: center;
 }
 .header-adress{
-    font-size: normal;
+    font-style: normal;
 }
 .section_one{
     background-color: #2E2F42;
@@ -71,30 +68,31 @@ h2, h3{
     color: #FFFFFF;
     cursor: pointer;
 }
-.section_one-btn:hover{
-    background-color: #404BBF;
-}
 .section_one button{
     background-color: #4D5AE5;
 }
-.section_one-btn :focus{
+.section_one-btn:hover{
     background-color: #404BBF;
 }
-.about-menu h3{
+
+.section_one-btn:focus{
+    background-color: #404BBF;
+}
+.about-menu-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.about-menu p{
+.about-menu-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.main-tag-h3{
+.main-tag-h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -129,7 +127,14 @@ h2, h3{
 p{
     color: #434455;
 }
-
+.main-tag-h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
 .portfolio{
     font-weight: 700;
     font-size: 36px;
