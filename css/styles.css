@@ -2,6 +2,10 @@ body{
     font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
 }
+
+header ul li a:hover{
+    color: #404BBF;
+}
 h2, h3{
     color: #2E2F42;
 }
@@ -17,6 +21,9 @@ h2, h3{
 }
 .section_one button{
     background-color: #4D5AE5;
+}
+.section_one button:hover{
+    background-color: #404BBF;
 }
 
 .section_three{
