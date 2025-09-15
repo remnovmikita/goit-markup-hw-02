@@ -1,0 +1,37 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+}
+h2, h3{
+    color: #2E2F42;
+}
+.navigation-menu{
+    color: #2E2F42;
+}
+.address-menu{
+    color: #434455;
+}
+.section_one{
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+.section_one button{
+    background-color: #4D5AE5;
+}
+
+.section_three{
+    background-color: #F4F4FD;
+}
+
+p{
+    color: #434455;
+}
+.section_four{
+    background-color:#E7E9FC;
+}
+footer{
+    background-color: #2E2F42;
+}
+footer p{
+    color: #F4F4FD;
+}
