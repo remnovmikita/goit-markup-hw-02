@@ -1,6 +1,7 @@
 body{
     font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
+    color: #434455;
 }
 
 header ul li a:hover{
@@ -34,14 +35,21 @@ h2, h3{
     line-height: 150%;
     letter-spacing: 0.02em;
 }
+.navigation-menu-li{
+    color: #2e2f42;
+}
+.navigation-menu-li:focus{
+    color: #404bbf;
+}
 .address-menu{
     color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    font-size: normal;
 }
-h1{
+.main-tag-h1{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -69,7 +77,9 @@ h1{
 .section_one button{
     background-color: #4D5AE5;
 }
-
+.section_one-btn :focus{
+    background-color: #404BBF;
+}
 .about-menu h3{
     font-weight: 500;
     font-size: 20px;
@@ -84,13 +94,17 @@ h1{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team{
+.main-tag-h3{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
+}
+.team-li{
+    background-color: #FFFFFF;
 }
 .team-name{
     font-weight: 500;
@@ -123,6 +137,7 @@ p{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize
 }
 .portfolio-main{
     font-weight: 500;
