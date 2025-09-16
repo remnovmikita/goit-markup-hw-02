@@ -127,14 +127,6 @@ h2, h3{
 p{
     color: #434455;
 }
-.main-tag-h4{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-}
 .portfolio{
     font-weight: 700;
     font-size: 36px;
