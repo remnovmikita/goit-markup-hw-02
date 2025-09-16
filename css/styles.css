@@ -46,7 +46,7 @@ h2, h3{
     letter-spacing: 0.02em;
     font-style: normal;
 }
-.main-tag_h1{
+.tag_h1{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -92,7 +92,7 @@ h2, h3{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.main-tag_h2{
+.tag_h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
