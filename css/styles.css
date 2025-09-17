@@ -3,7 +3,12 @@ body{
     background-color: #FFFFFF;
     color: #434455;
 }
-
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
 header ul li a:hover{
     color: #404BBF;
 }
@@ -166,7 +171,7 @@ p{
 }
 
 .section_four{
-    background-color:#E7E9FC;
+    background-color:#FFFFFF;
 }
 footer{
     background-color: #2E2F42;
